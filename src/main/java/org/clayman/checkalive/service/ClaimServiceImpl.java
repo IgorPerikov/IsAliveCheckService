@@ -30,7 +30,7 @@ public class ClaimServiceImpl implements ClaimService {
 
     @Override
     public List<Claim> getClaims() {
-        return claimRepository.findAll();
+        return claimRepository.findByClaimStatus((byte) 0);
     }
 
     @Override
