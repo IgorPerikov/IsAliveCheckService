@@ -17,7 +17,12 @@ For building .jar file:
 Launching
 ---------------
 
-To launch service, u need to simply call "java -jar checkalive-0.1.jar" from your favourite console, service will be available at localhost:8080
+To launch service, u need to simply call "java -jar checkalive-0.1.jar" from your favourite console, service will be available at localhost:8080/api/
+
+Api
+---------------
+* /application-check POST - post a claim
+* /application-status?host=192.168.0.1&port=80&path=%2Fping GET - get a result
 
 Configuration
 ---------------
