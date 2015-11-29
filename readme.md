@@ -8,8 +8,8 @@ Building
 
 For building .jar file:
 * clone repo
-* fill application.properties with approperiate values (see below in Launching section)
-* launch "mvn package" from console from root folder of project(need maven installed)
+* fill application.properties with appropriate values (see below in "Launching" section)
+* launch "mvn package" from console from root folder of project (need maven installed)
 * .jar file called "checkalive-0.1.jar" will be under /target
 
 Launching
