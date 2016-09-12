@@ -28,12 +28,3 @@ Configuration
 ---------------
 
 "monitoring.configuration.max-size" is parameter, which indicates max possible size of queue. Service will deny all new claims with 503 in this state
-
-
-```
-<plugin>
-    <groupId>ru.agentguru</groupId>
-    <artifactId>build-info-maven-plugin</artifactId>
-    <version>0.1</version>
-</plugin>
-```
